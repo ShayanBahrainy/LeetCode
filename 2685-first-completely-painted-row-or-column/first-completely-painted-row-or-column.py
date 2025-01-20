@@ -12,7 +12,6 @@ class Solution:
             j,i = positions[arr[index]]
             cols[i] = cols.get(i, 0) + 1
             rows[j] = rows.get(j, 0) + 1
-            print(rows[j], cols_count)
             if rows[j] == cols_count:
                 return index
             if cols[i] == rows_count:
