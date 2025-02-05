@@ -10,7 +10,6 @@ class Solution:
             return False
         i1 = switchIndexes[0]
         i2 = switchIndexes[1]
-        print(switchIndexes)
         if s1[i2] == s2[i1] and s2[i2] == s1[i1]:
             return True
         return False
