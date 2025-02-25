@@ -18,7 +18,6 @@ public:
                 odds++;
             }
             possible %= MOD;
-            cout << possible << endl;
         }
         return possible;
     }
