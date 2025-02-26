@@ -25,7 +25,6 @@ public:
                 curr = 0;
             }
         }
-        cout << min << endl << max << endl;
         return fabs(min) > max ? fabs(min) : max;
     }
 };
