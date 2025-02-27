@@ -1,6 +1,6 @@
 class Solution {
 public:
-    short theMaximumAchievableX(short num, short t) {
+    long long theMaximumAchievableX(long long num, long long t) {
         return num + t + t;
     }
 };
